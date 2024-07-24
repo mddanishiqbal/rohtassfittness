@@ -1,0 +1,46 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px;
+}
+.slider-area .hero__caption span {
+    font-size: 42px;
+    letter-spacing: 10px;
+    font-weight: 800;
+    line-height: 1;
+    padding-top: 60px;
+  }
+  .slider-area .hero__caption p{
+    font-size: 20px !important;
+    margin-top: -60px !important;
+    margin-right: 30px !important;
+    margin-left: -5px !important;
+  }
+ 
+}
